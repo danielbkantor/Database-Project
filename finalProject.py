@@ -13,7 +13,6 @@ from dateutil.relativedelta import relativedelta
 mydb = mysql.connector.connect(
   host='localhost',
   user='root',
-  password='Tennis10021',
   database = 'library_system'
 )
 mycursor = mydb.cursor(dictionary=True)
